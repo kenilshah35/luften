@@ -480,7 +480,7 @@ if __name__ == "__main__":
     link_functions_to_flask(app=app)
 #    link_functions_to_socketio(socketio=socketio)
 
-    socketio.run(app, debug=True)
+    socketio.run(app, debug=True, host='0.0.0.0', port=10000)
 
 
 
