@@ -199,3 +199,4 @@ internal
 src/betaassi
 .eslintcache
 .svelte-kit
+src/backend/src

@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 
-export const url = "http://0.0.0.0:10000"
+export const url = "http://54.167.157.145:80"
 
 export const listPupils = writable([]);
 export const selectedPupil = writable(); 

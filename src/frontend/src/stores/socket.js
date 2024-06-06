@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 import io from 'socket.io-client';
 
-const socket = io('http://0.0.0.0:10000');
+const socket = io('http://54.167.157.145:80');
 export const socketStore = writable(socket);
 
 
